@@ -1,0 +1,97 @@
+body{
+    color: rgb(23, 137, 50);
+    font-family:sans-serif", "Arial", "Arial Narrow";
+  }
+  
+  #title{
+    text-align:center;
+    font-size:45px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  #description{
+    text-align:center;
+    font-size:20px;
+    font-weight:500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  
+  form{
+    text-emphasis: left;
+    border: 3px solid green;
+    margin: 50px;
+    padding: 2.0rem;
+    background: whitesmoke;
+    border-radius: 60px;
+  }
+  
+  .form-example{
+    padding: 1.0rem;
+  }
+  
+  input{
+    margin:10px
+  }
+  
+  #number{
+    width: 95px;  
+  }
+  
+  #name-label, #email-label, #number-label, [for="course-select"], [class="label"],[for="comment"] {
+    font-weight:bolder;
+    font-size: 20px;
+  }
+  
+  textarea {
+    padding: 10px;
+    margin-top:30px;
+    margin-bottom: 90px;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 10px 20px #999;
+  }
+  
+  [for="comment"] {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  #submit {
+    text-align: center;
+  }
+  
+  [type="submit"] {
+    font-size: 17px;
+    border-radius: 6px;
+    border: 0px solid black;
+    box-shadow: 0px 10px 20px  #1a1a1a;
+  }
+  
+  [type="submit"]:hover {
+    background-color: green;
+    color: whitesmoke;
+  }
+  
+  footer {
+    background: green;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 20px;
+  }
+  
+  [type= "text"] {
+    border-radius: 40px;
+  }
+
+  [type= "number"] {
+    border-radius: 40px;
+}
+
+[for= "course-select"] {
+    border-radius: 40px;
+}
+  

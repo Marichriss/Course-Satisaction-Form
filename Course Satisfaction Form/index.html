@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+   <meta charset= "UTF-8">
+   <meta mang="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+  <title>Course Satisfaction Form</title>
+
+    <h1 id= "title">Course Satisfaction Survey Form</h1>
+
+    <p id= "description">Course satisfaction survey questions help collect objective and actionable feedbacks from university students.</p>
+
+   <form action= "" method="get" id= "survey-form">
+        <!--First Name -->
+        <div class= "form-example">
+           <label for="name" id="name-label">First Name: </label>
+           <input type="text" name="name" id="name" placeholder="John" required>
+        </div>
+     
+        <!-- Last Name -->
+        <div class= "form-example">
+          <label for="name" id="name-label">Last Name: </label>
+          <input type="text" name="name" id="name" placeholder="Doe" required>
+        </div>
+    
+        <!-- Email -->
+        <div class= "form-example">
+          <label for="email" id="email-label"> Your Email: </label>
+          <input type="text" name="email" id="email" placeholder="john@doe.com" required>
+        </div>
+       
+        <!-- Number -->
+        <div class= "form-example">
+          <label for="age" id="number-label">Your Age: </label>
+          <input type= "number" name="age" id="number" placeholder="Enter your age" min="20" max="40" required>
+        </div>         
+        
+       <!-- Dropdown -->
+       <div class= "form-example">
+         <label for="course-select">What course did you study:</label>
+         <select name="course-select" id="dropdown"> 
+            <option value="">Select your course</option>
+            <option value="1">Medicine and Surgery</option>
+            <option value="2">Physiology</option>
+            <option value="3">Anatomy</option>
+            <option value="4">Nursing</option>
+         </select>
+      </div> 
+       <!-- Radio Select -->
+       <div class= "form-example">
+        <p class="label">Why did you choose the course you studied in College?</p>
+       </div> 
+        
+       <div>
+        <label for="Job Security">      
+          <input id="Job Security" type="radio" name="why" value="job security">Job Security
+        </label>
+       </div>
+     
+      <div>
+        <label for="Prestige">
+         <input id="Prestige" type="radio" name="why" value="prestige">Prestige
+        </label>
+      </div>
+     
+      <div>
+        <label for="Money">
+         <input id="Money" type="radio" name="why" value="money">Money
+        </label>
+      </div>
+        <label for="Fame">
+         <input id="Fame" type="radio" name="why" value="fame">Fame
+        </label>
+      <div>
+        
+      </div>
+     <!-- Checkbox -->
+     <div class="form-example">
+        <p class="label">Do you wish more should have been done better regarding the course you studied?</p>
+        
+       <div>
+         <label for="Yes">
+           <input id="Yes" value="yes" type="checkbox" name="do you wish">Yes
+         </label>
+       </div>
+       
+       <div>
+         <label for="No">
+            <input id="No" value="no" type="checkbox"  name="do you wish">No
+         </label>
+       </div>
+       
+       <div>
+         <label for="Maybe">
+           <input id="Maybe" value="maybe" type="checkbox" name="do you wish">Maybe
+         </label>
+       </div>
+       
+     <!-- Textarea -->
+     <div class="form-example">
+       <label for="comment">Tell your story:</label>
+         <textarea name="comment" id="comment" cols="70" rows="10"></textarea>
+       </label>
+     </div>
+     
+     <!-- Submit -->
+     <div id="form-example">
+       <input type="Submit" value="Submit">
+     </div>
+     
+      <!-- Full card -->
+     <div class: "fullCard" id="thumbnail"></div>
+        
+  </form>
+    
+  </body>
+  <footer>&copy: Onyinye Udeobi</footer>
+
+</html>
